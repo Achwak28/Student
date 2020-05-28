@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBack"
+    tools:context=".CPI1">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/LayoutHeader"
+        android:background="@drawable/header_bg"
+        android:padding="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/textHello"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:text="Modules 1CPI "
+            android:textColor="@color/colorWhite"
+            android:textSize="25sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="99dp"
+            android:layout_marginLeft="15dp" />
+
+
+
+        <ImageView
+
+            android:id="@+id/imageMenu"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+
+
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_menu"
+            android:tint="@color/colorWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:layout_editor_absoluteY="27dp" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_marginTop="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       app:layout_constraintTop_toBottomOf="@id/LayoutHeader">
+
+
+       <Button
+           android:id="@+id/button3"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="ANALYSE 1 "
+           tools:layout_editor_absoluteX="152dp"
+           tools:layout_editor_absoluteY="13dp"
+           android:background="@color/colorWhite"
+
+           />
+
+
+       <Button
+           android:id="@+id/button4"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="ALGORITHMEQUE"
+           app:layout_constraintTop_toBottomOf="@id/button3"
+           tools:layout_editor_absoluteX="152dp"
+           tools:layout_editor_absoluteY="61dp"
+           android:background="@color/colorWhite"/>
+
+       <Button
+           android:id="@+id/button5"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="ALGEBRE"
+           tools:layout_editor_absoluteX="152dp"
+           tools:layout_editor_absoluteY="109dp"
+           app:layout_constraintTop_toBottomOf="@id/button4"
+           android:background="@color/colorWhite"/>
+
+       <Button
+           android:id="@+id/button6"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="SYSTEME D'EXPLOITATION 1"
+           tools:layout_editor_absoluteX="154dp"
+           tools:layout_editor_absoluteY="164dp"
+           app:layout_constraintTop_toBottomOf="@id/button5"
+           android:background="@color/colorWhite"/>
+
+       <Button
+           android:id="@+id/button7"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="ARCHITECTURE DES ORDINATEURS 1"
+           tools:layout_editor_absoluteX="152dp"
+           tools:layout_editor_absoluteY="212dp"
+           app:layout_constraintTop_toBottomOf="@id/button6"
+           android:background="@color/colorWhite"/>
+
+       <Button
+           android:id="@+id/button8"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="BUREAUTIQUE ET WEB"
+           app:layout_constraintTop_toBottomOf="@id/button7"
+           tools:layout_editor_absoluteX="16dp"
+           android:background="@color/colorWhite"/>
+
+       <Button
+           android:id="@+id/button9"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="FRANÇAIS"
+           tools:layout_editor_absoluteX="154dp"
+           tools:layout_editor_absoluteY="308dp"
+           app:layout_constraintTop_toBottomOf="@id/button8"
+           android:background="@color/colorWhite"/>
+
+       <Button
+           android:id="@+id/button10"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="ANGLAIS"
+           tools:layout_editor_absoluteX="152dp"
+           tools:layout_editor_absoluteY="356dp"
+           app:layout_constraintTop_toBottomOf="@id/button9"
+           tools:ignore="NotSibling"
+           android:background="@color/colorWhite"/>
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
