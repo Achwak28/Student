@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+   android:padding="20sp"
+
+    android:background="@color/colorDark">
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="409dp"
+        android:layout_height="54dp"
+        android:hint="Email"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="52dp"
+        android:layout_marginTop="150dp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:hint="Password"
+        android:layout_width="391dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email"
+        android:ems="10"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="409dp"
+        android:layout_height="54dp"
+        android:hint="Full Name"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/colorWhite"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="52dp"
+
+        android:layout_below="@id/password"/>
+
+    <Button
+
+        android:id="@+id/btnUp"
+        android:layout_width="391dp"
+        android:layout_height="59dp"
+        android:layout_below="@id/fullname"
+        android:background="@color/colorAccent"
+        android:shadowColor="@color/colorWhite"
+        android:textColor="@color/colorWhite"
+        android:text="Next"
+
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/login"
+
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnUp"
+        android:text="Already have account? Login"/>
+
+
+
+</RelativeLayout>

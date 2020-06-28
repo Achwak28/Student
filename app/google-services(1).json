@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "529229375484",
+    "firebase_url": "https://studentmng-abc0.firebaseio.com",
+    "project_id": "studentmng-abc0",
+    "storage_bucket": "studentmng-abc0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529229375484:android:e8043777a5006dd5d0b479",
+        "android_client_info": {
+          "package_name": "com.example.studentmng"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529229375484-ict4vf470deeo95i8olafh02s832jfht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSAZlw9B8hcst_VHu1isbW1HRLj7Y3hrM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529229375484-ict4vf470deeo95i8olafh02s832jfht.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             android:layout_marginStart="15dp"
-            android:text="YEARS "
+            android:text="GROUPS"
             android:textColor="@color/colorWhite"
             android:textSize="25sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -60,7 +60,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="Choose Your Groups !"
+
+            android:id="@+id/module"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
         <CheckBox

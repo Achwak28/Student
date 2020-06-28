@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingBottom="16dp"
+    android:background="@color/colorDark"
+    tools:context=".Student">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:textColorHint="@color/colorWhite"
+        android:id="@+id/etfirst"
+        android:textColor="@color/colorWhite"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Full Name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etfirst"
+       android:id="@+id/etlastn"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
+        android:layout_centerHorizontal="true"
+        android:hint="Test 1"
+         />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_below="@id/etlastn"
+        android:id="@+id/etfav"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
+
+        android:layout_centerHorizontal="true"
+        android:hint="Test 2"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etfav"
+        android:id="@+id/pres"
+        android:textColorHint="@color/colorWhite"
+        android:textColor="@color/colorWhite"
+
+        android:layout_centerHorizontal="true"
+        android:hint="Presence"/>
+
+    <Button
+        android:textColor="@color/colorWhite"
+        android:background="#2ecc71"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnadd"
+        android:layout_below="@id/pres"
+        android:text="Add"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+    <Button
+        android:textColor="@color/colorWhite"
+        android:background="#2ecc71"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnview"
+        android:layout_below="@id/pres"
+        android:text="View"
+       android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+         />
+
+
+
+
+
+
+</RelativeLayout>
